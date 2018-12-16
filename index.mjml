@@ -1,14 +1,34 @@
 <mjml>
     <mj-head>
-    <mj-title>Hello MJML</mj-title>
+    <mj-title>ABLE | FASHIONABLE</mj-title>
   </mj-head>
   <mj-body>
-    <mj-section>
-      <mj-column>
-        <mj-text>
-          Hello World!
-        </mj-text>
-      </mj-column>
-    </mj-section>
+
+      <!-- Header -->
+      <mj-hero
+        mode="fluid-height"
+        background-width="130%"
+        background-height="50px"
+        background-url="http://www.ablefashionable.jeandremelaria.nl/img/header.png"
+        background-color="red"
+      >
+        <!-- Logo -->
+        <mj-image 
+          width="50px" 
+          padding-top="50px"
+          src="http://www.ablefashionable.jeandremelaria.nl/img/logo.png"></mj-image>
+
+        <!-- Company name -->
+        <mj-text color="#fff">ABLE | FASHIONABLE</mj-text>
+
+        <!-- Text -->
+        <mj-text color="#fff">“Fashion is what you’re offered four times a year by designers. And style is what you choose.”</mj-text>
+
+        <!-- Buttons -->
+        <mj-button>New Trend</mj-button>
+        <mj-button>Best Offers</mj-button>
+      </mj-hero>
+      <!-- /Header -->
+
   </mj-body>
 </mjml>
