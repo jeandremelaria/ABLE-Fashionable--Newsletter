@@ -1,17 +1,30 @@
 <mjml>
     <mj-head>
     <mj-title>ABLE | FASHIONABLE</mj-title>
+    
+    <!-- Import Font-->
+    <mj-font  name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:400,500,900" />
+
+    <!-- Style-->
+    <mj-attributes>
+      <!-- Text-->
+      <mj-class name="text" 
+        color="#fff"
+        font-family="Roboto, sans-serif"
+        align="center" />
+    </mj-attributes>
+    <!-- /Style-->
   </mj-head>
   <mj-body>
 
+    <!-- Wrapper -->
+    <mj-wrapper padding-top="0px">
       <!-- Header -->
       <mj-hero
-        mode="fluid-height"
-        background-width="130%"
-        background-height="50px"
-        background-url="http://www.ablefashionable.jeandremelaria.nl/img/header.png"
-        background-color="red"
-      >
+        mode="fixed-height"
+        height="469px"
+        background-width="100%"
+        background-url="http://www.ablefashionable.jeandremelaria.nl/img/header.png">
         <!-- Logo -->
         <mj-image 
           width="50px" 
@@ -19,16 +32,55 @@
           src="http://www.ablefashionable.jeandremelaria.nl/img/logo.png"></mj-image>
 
         <!-- Company name -->
-        <mj-text color="#fff">ABLE | FASHIONABLE</mj-text>
+        <mj-text 
+          mj-class="text" 
+          font-weight="bold"
+          font-size="24px"
+          text-transform="uppercase">
+            able | fashionable
+          </mj-text>
 
         <!-- Text -->
-        <mj-text color="#fff">“Fashion is what you’re offered four times a year by designers. And style is what you choose.”</mj-text>
+        <mj-text 
+          mj-class="text"
+          font-size="16px"
+          padding-top="30px"
+          padding-bottom="30px">
+          “Fashion is what you’re offered four times a year by designers. And style is what you choose.”
+        </mj-text>
 
-        <!-- Buttons -->
-        <mj-button>New Trend</mj-button>
-        <mj-button>Best Offers</mj-button>
+        <mj-table>
+          <tr >
+            <td></td>
+            <!-- Button New Trend -->
+            <a href="#">
+              <td style="background-color:#D20962;
+                padding:10px;
+                border-radius:5px;
+                width:80px; 
+                color:#fff;
+                text-align:center">
+                <mj-button>New Trend</mj-button>
+              </td>
+              <td style="width:50px"></td>
+            </a>
+            <!-- Button Best Offers -->
+            <a href="#">
+              <td style="background-color:#343A40;
+                padding:10px;
+                border-radius:5px;
+                width:80px;
+                color:#fff;
+                text-align:center">
+                <mj-button>Best Offers</mj-button>
+              </td>
+            </a>
+            <td></td>
+          </tr>
+        </mj-table>
       </mj-hero>
       <!-- /Header -->
-
+  </mj-wrapper>
+  <!-- /Wrapper -->
   </mj-body>
 </mjml>
