@@ -16,13 +16,12 @@
     <!-- /Style-->
   </mj-head>
   <mj-body>
-
     <!-- Wrapper -->
     <mj-wrapper padding-top="0px">
       <!-- Header -->
       <mj-hero
         mode="fixed-height"
-        height="469px"
+        height="400px"
         background-width="100%"
         background-url="http://www.ablefashionable.jeandremelaria.nl/img/header.png">
         <!-- Logo -->
@@ -82,5 +81,65 @@
       <!-- /Header -->
   </mj-wrapper>
   <!-- /Wrapper -->
+
+  <mj-wrapper background-color="#EDEDED" border-radius="5px">
+    <!-- Body -->
+      <mj-section border-radius="5px">
+        <mj-column width="98%" background-color="yellow">
+          <mj-text>
+            <h1 style="color:#00A78E;
+                  text-align:center ">Special Deals Only For You</h1>
+          </mj-text>
+          <mj-text>Gain insights into the travel experiences of your friends. Travel to fulfil personal missions and group missions.</mj-text>
+        </mj-column>
+
+      </mj-section>
+      <!-- /Body -->
+  </mj-wrapper>
+
+
+  <!-- Footer -->
+  <mj-wrapper>
+    <mj-hero padding-top="50px"
+        mode="fixed-height"
+        height="400px"
+        background-width="100%"
+        background-url="http://www.ablefashionable.jeandremelaria.nl/img/footer.png">
+
+        <!-- Social Media -->
+        <mj-social font-size="15px" icon-size="30px" padding="70px" mode="horizontal">
+          <mj-social-element name="facebook" color="#3B5998" href="http://www.ablefashionable.jeandremelaria.nl/img/facebook.png">
+            Facebook
+          </mj-social-element>
+          <mj-social-element  name="twitter" color="#55acee" href="http://www.ablefashionable.jeandremelaria.nl/img/twitter.png">
+            Twitter
+          </mj-social-element>
+          <mj-social-element name="google" color="#D34836" href="http://www.ablefashionable.jeandremelaria.nl/img/googleplus.png">
+            Google
+          </mj-social-element>
+
+        </mj-social>
+
+
+        <!-- Text -->
+        <mj-text 
+          mj-class="text"
+          font-size="16px"
+          padding-top="30px"
+          padding-bottom="30px">
+          You are receiving this email because you subscribed to our mailing list.</br></br>
+          Click here to unsubcribe your email address from this list. 
+        </mj-text>
+
+        <mj-text 
+          mj-class="text"
+          font-size="16px"
+          padding-top="30px"
+          padding-bottom="30px">
+          © 2018 ABLE|FASHIONABLE. All Rights Reserved.    
+        </mj-text>
+      </mj-hero>
+  </mj-wrapper>
+  <!-- /Footer -->
   </mj-body>
 </mjml>
