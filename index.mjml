@@ -153,6 +153,38 @@
           <mj-button align="center" font-size="16px" background-color="#D20962" border-radius="20px">Let's go More</mj-button>
         </mj-column>
       </mj-section>
+
+        <mj-section background-url="http://www.ablefashionable.jeandremelaria.nl/img/store.jpg" vertical-align="middle" background-size="cover" padding="30px" background-repeat="no-repeat">
+          <mj-column background-color="rgba(255,255,255, 0.8)">
+            <!-- Sale -->
+            <mj-image padding-top="95px" padding-bottom="2px" width="40px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/sale.png" />
+
+            <mj-text padding-bottom="1px">
+              <h2 padding-top="1px" style="color:#00A78E;
+                text-align:center;
+                font-weight:bold">Our New Trend
+              </h2>
+          </mj-text>
+          <mj-text padding-bottom="1px" padding-top="0px">
+            <h1 padding-top="1px" style="color:#00A78E;
+              text-align:center;
+              font-weight:bold">Best Offers in 2018
+            </h1>
+          </mj-text>
+          <!-- Divider -->
+          <mj-divider width="53px" border-width="2px" border-style="solid" border-color="#D20962" />
+
+          <mj-text padding-bottom="50px">
+            <p align="center">Want to get a good deal on designer clothes? Get $20 off your first order.</p>
+          </mj-text>
+          </mj-column>
+
+        </mj-section>
+
+
+
+
+      
       <!-- /Body -->
   </mj-wrapper>
 
