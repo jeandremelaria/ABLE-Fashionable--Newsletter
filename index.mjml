@@ -224,6 +224,21 @@
         </mj-section>
         <!-- /Awesome Brands section -->
 
+        <!-- Awesome Offers section -->
+          <mj-section>
+          <mj-column>
+          <mj-text mj-class="text" padding-top="0px">
+            <h2 style="color:#00A78E">Awesome Offers</h2>
+            <p style="font-size:16px; color:#768283">Plumetis Embroidered jumpsuit.</p>
+          </mj-text>
+            <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl2.jpg" />
+          </mj-column>
+        </mj-section>
+        <!-- /Awesome Offers section -->
+
 
       
       <!-- /Body -->
