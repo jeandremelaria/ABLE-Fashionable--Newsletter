@@ -85,12 +85,15 @@
   <mj-wrapper background-color="#EDEDED" border-radius="5px">
     <!-- Body -->
       <mj-section border-radius="5px">
-        <mj-column width="98%" background-color="yellow">
-          <mj-text>
+        <mj-column>
+          <mj-text padding-bottom="1px">
             <h1 style="color:#00A78E;
-                  text-align:center ">Special Deals Only For You</h1>
+                  text-align:center;
+                  font-weight:400">Special Deals Only For You</h1>
           </mj-text>
-          <mj-text>Gain insights into the travel experiences of your friends. Travel to fulfil personal missions and group missions.</mj-text>
+          <mj-text padding-top="1px">
+            <p style="color:#768283; font-size:15px">Gain insights into the travel experiences of your friends. Travel to fulfil personal missions and group missions.</p>
+          </mj-text>
         </mj-column>
 
       </mj-section>
