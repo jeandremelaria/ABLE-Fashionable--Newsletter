@@ -240,13 +240,13 @@
         <!-- /Awesome Offers section -->
 
         <!-- Our Designer section -->
-        <mj-section>
-          <mj-column border="3px solid red">
+        <mj-section background-color="#00A78E">
+          <mj-column>
             <mj-image width="150px" border-radius="80px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/designer-portrait.jpg" />
 
             <mj-text>
-              <h3 style="color:#00A78E" align="center">Ed Kunze</h3>
-              <p style="color:#768283; font-weight:bold;" align="center">Our Designer</p>
+              <h3 style="color:#545656" align="center">Ed Kunze</h3>
+              <p style="color:#fff; font-weight:bold;" align="center">Our Designer</p>
             </mj-text>
 
             <!-- Social Media -->
@@ -261,10 +261,10 @@
             <!-- /Social Media -->
 
           </mj-column>
-          <mj-column border="3px solid red">
+          <mj-column>
             <mj-text padding-top="40px" padding-bottom="44px">
-              <h2 style="color:#00A78E" align="center">About Ed Kunze</h2>
-              <p style="color:#768283; font-size:14px; line-height:20px" align="center">Creative, highly visual fashion professional with more than 6 years experience and who can brilliantly mix and match the technical expertise and intuition like fabric and color seeks to become the latest Fashion Designer for Able | Fashionable.</p>
+              <h2 style="color:#545656" align="center">About Ed Kunze</h2>
+              <p style="color:#fff; font-size:14px; line-height:20px" align="center">Creative, highly visual fashion professional with more than 6 years experience and who can brilliantly mix and match the technical expertise and intuition like fabric and color seeks to become the latest Fashion Designer for Able | Fashionable.</p>
             </mj-text>
           </mj-column>
         </mj-section>
@@ -304,7 +304,7 @@
           padding-top="0"
           padding-bottom="30px">
           <p> You are receiving this email because you subscribed to our mailing list.</br></br>
-          <u style="color:#D20962;">Click here</u> to unsubcribe your email address from this list. </p>
+          <u style="color:#545656;">Click here</u> to unsubcribe your email address from this list. </p>
         </mj-text>
 
         <mj-text 
