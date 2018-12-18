@@ -107,37 +107,38 @@
         background-url="http://www.ablefashionable.jeandremelaria.nl/img/footer.png">
 
         <!-- Social Media -->
-        <mj-social font-size="15px" icon-size="30px" padding="70px" mode="horizontal">
-          <mj-social-element name="facebook" color="#3B5998" href="http://www.ablefashionable.jeandremelaria.nl/img/facebook.png">
-            Facebook
+        <mj-social font-size="15px" icon-size="30px" padding="70px" border-radius="5px" inner-padding="10px" padding-bottom="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="http://www.ablefashionable.jeandremelaria.nl/img/facebook.png">
+            
           </mj-social-element>
-          <mj-social-element  name="twitter" color="#55acee" href="http://www.ablefashionable.jeandremelaria.nl/img/twitter.png">
-            Twitter
+          <mj-social-element  name="twitter" href="http://www.ablefashionable.jeandremelaria.nl/img/twitter.png">
+            
           </mj-social-element>
-          <mj-social-element name="google" color="#D34836" href="http://www.ablefashionable.jeandremelaria.nl/img/googleplus.png">
-            Google
+          <mj-social-element name="google" href="http://www.ablefashionable.jeandremelaria.nl/img/googleplus.png">
+            
           </mj-social-element>
-
         </mj-social>
-
+        <!-- /Social Media -->
 
         <!-- Text -->
         <mj-text 
           mj-class="text"
           font-size="16px"
-          padding-top="30px"
+          padding-top="0"
           padding-bottom="30px">
-          You are receiving this email because you subscribed to our mailing list.</br></br>
-          Click here to unsubcribe your email address from this list. 
+          <p> You are receiving this email because you subscribed to our mailing list.</br></br>
+          <u style="color:#D20962;">Click here</u> to unsubcribe your email address from this list. </p>
         </mj-text>
 
         <mj-text 
           mj-class="text"
           font-size="16px"
-          padding-top="30px"
+          padding-top="10px"
           padding-bottom="30px">
-          © 2018 ABLE|FASHIONABLE. All Rights Reserved.    
+          <p>© 2018 ABLE|FASHIONABLE. All Rights Reserved.</p> 
         </mj-text>
+        <!-- /Text -->
+
       </mj-hero>
   </mj-wrapper>
   <!-- /Footer -->
