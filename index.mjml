@@ -173,15 +173,26 @@
           </mj-text>
           <!-- Divider -->
           <mj-divider width="53px" border-width="2px" border-style="solid" border-color="#D20962" />
-
           <mj-text padding-bottom="50px">
             <p align="center">Want to get a good deal on designer clothes? Get $20 off your first order.</p>
           </mj-text>
           </mj-column>
-
         </mj-section>
 
-
+        <!-- Awesome designs section -->
+        <mj-section>
+          <mj-column>
+            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl1.jpg" />
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="text" padding-top="0px">
+            <h2 style="color:#00A78E">Awesome Designs</h2>
+            <p style="font-size:16px; color:#768283">Katinka V-neck wrap organic cotton dress.</p>
+          </mj-text>
+            <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
+          </mj-column>
+        </mj-section>
+        <!-- /Awesome designs section -->
 
 
       
