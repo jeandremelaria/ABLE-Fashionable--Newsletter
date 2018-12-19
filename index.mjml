@@ -1,4 +1,15 @@
 <mjml>
+<!--
+Developer name: Jeandre Melaria
+Project title: ABLE Fashionable Newsletter
+Platform: MJML Framework
+Programming language: MJML,HTML5, CSS3
+IDE tool: Visual Studio Code
+Database:  -
+Project type: Email newsletter
+File created date: 15.12.2018
+Last modified: 19.12.2018
+-->
     <mj-head>
     <mj-title>ABLE | FASHIONABLE</mj-title>
     
