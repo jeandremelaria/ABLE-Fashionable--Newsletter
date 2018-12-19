@@ -14,6 +14,53 @@
         align="center" />
     </mj-attributes>
     <!-- /Style-->
+
+    <!-- Media Queries-->
+    <mj-style>
+      @media (max-width: 320px) {
+        .stunning__dresses--icon {
+          margin-left:-25px;
+        }
+        .stunning__dresses--btn {
+          width:92%!important;
+        }
+        .specialdeals--img {
+          margin-left:12px!important;
+        }
+        .desktop {
+          display:none;
+        }
+      }
+      @media (min-width:321px) and (max-width: 426px) {
+        .stunning__dresses--icon {
+          margin-left:-25px;
+        }
+        .stunning__dresses--btn {
+          width:92%!important;
+        }
+        .specialdeals--img {
+          margin-left:12px!important;
+        }
+        .desktop {
+          display:none;
+        }
+      }
+      @media (min-width:768px) {
+        .stunning__dresses--icon {
+          margin-left:-25px;
+        }
+        .stunning__dresses--btn {
+          width:92%!important;
+        }
+        .about__Ed {
+          padding-top:30px!important;
+        }
+        .mobile {
+          display:none;
+        }
+      }
+    </mj-style>
+    <!-- /Media Queries-->
   </mj-head>
   <mj-body>
     <!-- Wrapper -->
@@ -35,7 +82,7 @@
           mj-class="text" 
           font-weight="bold"
           font-size="24px"
-          text-transform="uppercase">
+          text-transform="uppercase" css-class="red">
             able | fashionable
           </mj-text>
 
@@ -98,8 +145,8 @@
       </mj-section>
       
       <mj-section background-color="#00A78E">
-        <mj-column>
-          <mj-image padding-left="0" width="300px" src="http://www.ablefashionable.jeandremelaria.nl/img/adult-beautiful-clothes-291762.jpg" />
+        <mj-column css-class="specialdeals--img">
+          <mj-image  padding-left="0" width="300px" src="http://www.ablefashionable.jeandremelaria.nl/img/adult-beautiful-clothes-291762.jpg" />
         </mj-column>
           <mj-column>
           <mj-text mj-class="text" padding-top="45px">
@@ -109,6 +156,7 @@
         </mj-column>
       </mj-section>
 
+      <!-- Stunning dresses section -->
       <mj-section padding-bottom="10px">
         <mj-column>
           <mj-text align="center">
@@ -117,7 +165,7 @@
         </mj-column>
       </mj-section>
       <mj-section padding-left="25px" padding-top="0px" padding-bottom="0px">
-        <mj-column>
+        <mj-column css-class="stunning__dresses--icon">
           <mj-image width="40px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/icon1.png" />
           <mj-text >
             <p align="center">Dazzling tops for sunny days.</p>
@@ -127,7 +175,7 @@
           </mj-text>
         </mj-column>
 
-        <mj-column>
+        <mj-column css-class="stunning__dresses--icon">
           <mj-image width="40px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/icon2.png" />
           <mj-text >
             <p align="center">Quality shoes for the best price.</p>
@@ -137,7 +185,7 @@
           </mj-text>
         </mj-column>
 
-        <mj-column>
+        <mj-column css-class="stunning__dresses--icon">
           <mj-image width="40px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/icon3.png" />
           <mj-text >
             <p align="center">The perfect hat for your outfit.</p>
@@ -149,10 +197,12 @@
       </mj-section>
 
       <mj-section padding-top="0px">
-        <mj-column padding-left="20px">
-          <mj-button align="center" font-size="16px" background-color="#D20962" border-radius="20px">Let's go More</mj-button>
+        <mj-column css-class="stunning__dresses--btn">
+          <mj-button  align="center" font-size="16px" background-color="#D20962" border-radius="20px">Let's go More</mj-button>
+
         </mj-column>
       </mj-section>
+      <!-- /Stunning dresses section -->
 
         <mj-section background-url="http://www.ablefashionable.jeandremelaria.nl/img/store.jpg" vertical-align="middle" background-size="cover" padding="30px" background-repeat="no-repeat">
           <mj-column background-color="rgba(255,255,255, 0.8)">
@@ -179,8 +229,9 @@
           </mj-column>
         </mj-section>
 
+<!-- ****************** Mobile version **************************** -->
         <!-- Awesome designs section -->
-        <mj-section>
+        <mj-section css-class="mobile">
           <mj-column>
             <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl1.jpg" />
           </mj-column>
@@ -195,22 +246,22 @@
         <!-- /Awesome designs section -->
 
         <!-- Awesome Fashions section -->
-        <mj-section>
+        <mj-section css-class="mobile">
           <mj-column>
-          <mj-text mj-class="text" padding-top="0px">
+            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl2.jpg" />
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="text" padding-top="0px">
             <h2 style="color:#00A78E">Awesome Fashions</h2>
             <p style="font-size:16px; color:#768283">Constrasting pleated dress.</p>
           </mj-text>
             <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
           </mj-column>
-          <mj-column>
-            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl2.jpg" />
-          </mj-column>
         </mj-section>
         <!-- /Awesome Fashions section -->
 
         <!-- Awesome Brands section -->
-        <mj-section>
+        <mj-section css-class="mobile">
           <mj-column>
             <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl3.jpg" />
           </mj-column>
@@ -225,7 +276,70 @@
         <!-- /Awesome Brands section -->
 
         <!-- Awesome Offers section -->
-          <mj-section>
+          <mj-section css-class="mobile">
+          <mj-column>
+          <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl4.jpg" />
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="text" padding-top="0px">
+            <h2 style="color:#00A78E">Awesome Offers</h2>
+            <p style="font-size:16px; color:#768283">Plumetis Embroidered jumpsuit.</p>
+          </mj-text>
+            <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
+          </mj-column>
+        </mj-section>
+        <!-- /Awesome Offers section -->
+
+<!-- ****************** /Mobile version **************************** -->
+
+<!-- ****************** Desktop version **************************** -->
+        <!-- Awesome designs section -->
+        <mj-section css-class="desktop">
+          <mj-column>
+            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl1.jpg" />
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="text" padding-top="0px">
+            <h2 style="color:#00A78E">Awesome Designs</h2>
+            <p style="font-size:16px; color:#768283">Katinka V-neck wrap organic cotton dress.</p>
+          </mj-text>
+            <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
+          </mj-column>
+        </mj-section>
+        <!-- /Awesome designs section -->
+
+        <!-- Awesome Fashions section -->
+        <mj-section css-class="desktop">
+          <mj-column>
+          <mj-text mj-class="text" padding-top="0px">
+            <h2 style="color:#00A78E">Awesome Fashions</h2>
+            <p style="font-size:16px; color:#768283">Constrasting pleated dress.</p>
+          </mj-text>
+            <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
+          </mj-column>
+          <mj-column>
+            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl2.jpg" />
+          </mj-column>
+        </mj-section>
+        <!-- /Awesome Fashions section -->
+
+        <!-- Awesome Brands section -->
+        <mj-section css-class="desktop">
+          <mj-column>
+            <mj-image width="445px" border-radius="8px" align="center" src="http://www.ablefashionable.jeandremelaria.nl/img/girl3.jpg" />
+          </mj-column>
+          <mj-column>
+            <mj-text mj-class="text" padding-top="0px">
+            <h2 style="color:#00A78E">Awesome Brands</h2>
+            <p style="font-size:16px; color:#768283">Sequinned Gingham jumpsuit.</p>
+          </mj-text>
+            <mj-button align="center" font-size="16px" background-color="#00A78E" border-radius="8px" >View More</mj-button>
+          </mj-column>
+        </mj-section>
+        <!-- /Awesome Brands section -->
+
+        <!-- Awesome Offers section -->
+          <mj-section css-class="desktop">
           <mj-column>
           <mj-text mj-class="text" padding-top="0px">
             <h2 style="color:#00A78E">Awesome Offers</h2>
@@ -238,6 +352,8 @@
           </mj-column>
         </mj-section>
         <!-- /Awesome Offers section -->
+
+<!-- ****************** /Desktop version **************************** -->
 
         <!-- Our Designer section -->
         <mj-section background-color="#00A78E">
@@ -262,7 +378,7 @@
 
           </mj-column>
           <mj-column>
-            <mj-text padding-top="40px" padding-bottom="44px">
+            <mj-text padding-bottom="44px" css-class="about__Ed">
               <h2 style="color:#545656" align="center">About Ed Kunze</h2>
               <p style="color:#fff; font-size:14px; line-height:20px" align="center">Creative, highly visual fashion professional with more than 6 years experience and who can brilliantly mix and match the technical expertise and intuition like fabric and color seeks to become the latest Fashion Designer for Able | Fashionable.</p>
             </mj-text>
