@@ -150,7 +150,7 @@ Last modified: 19.12.2018
                   font-weight:400">Special Deals Only For You</h1>
           </mj-text>
           <mj-text padding-top="1px">
-            <p style="color:#768283; font-size:15px">Gain insights into the travel experiences of your friends. Travel to fulfil personal missions and group missions.</p>
+            <p style="color:#768283; font-size:15px; text-align:center">Gain insights into the travel experiences of your friends. Travel to fulfil personal missions and group missions.</p>
           </mj-text>
         </mj-column>
       </mj-section>
